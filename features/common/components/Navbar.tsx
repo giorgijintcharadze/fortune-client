@@ -64,6 +64,20 @@ export default function Navbar() {
             >
               ➕ Create
             </Link>
+
+            <Link
+              href="/feedback"
+              className="flex items-center gap-2 px-4 py-2 rounded-lg font-medium bg-gradient-to-r text-white dark:hover:bg-gray-700 transition-all"
+            >
+              ✍️ feedback
+            </Link>
+
+            <Link
+              href="/getfeedback"
+              className="flex items-center gap-2 px-4 py-2 rounded-lg font-medium bg-gradient-to-r text-white dark:hover:bg-gray-700 transition-all"
+            >
+              📃 FeedbackList
+            </Link>
           </div>
         </div>
       </div>

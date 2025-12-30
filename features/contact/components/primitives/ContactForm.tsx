@@ -40,6 +40,7 @@ export function ContactForm() {
 
   const onSubmit = (data: ContactFormInputs) => {
     submitContact(data);
+    console.log(data);
   };
 
   useEffect(() => {
